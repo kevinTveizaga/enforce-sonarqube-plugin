@@ -9,6 +9,7 @@ notifications:
     - Dan.Canqui@jalasoft.com
     - Fernando.Hurtado@jalasoft.com
 script: "mvn test"
+before_deploy: "echo 'ready?'"
 deploy:
 	provider: bintray
 	file: "descriptor.json"
