@@ -63,7 +63,8 @@ public class ClassNameCheck extends SquidCheck<Grammar> {
      */
     @Override
     public void visitNode(AstNode astNode) {
-        String className = astNode.getFirstDescendant(ApexGrammarRuleKey.COMMON_IDENTIFIER).getTokenOriginalValue();
+        String className = astNode.getFirstDescendant(ApexGrammarRuleKey
+                .COMMON_IDENTIFIER).getTokenOriginalValue();
         if (!pattern.matcher(className).matches()) {
             getContext().createLineViolation(this,
                     MESSAGE, astNode, className, format);
