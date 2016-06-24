@@ -9,3 +9,8 @@ notifications:
     - Dan.Canqui@jalasoft.com
     - Fernando.Hurtado@jalasoft.com
 script: "mvn test"
+deploy:
+	provider: bintray
+	file: "descriptor.json"
+	user: "$System.env.BINTRAY_USER_NAME"
+	key: "$System.evn.BINTRAY_API_KEY"
