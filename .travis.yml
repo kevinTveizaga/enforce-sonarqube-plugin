@@ -16,3 +16,4 @@ deploy:
 	user: "$System.env.BINTRAY_USER_NAME"
 	key: "$System.evn.BINTRAY_API_KEY"
 	on: develop
+
