@@ -11,10 +11,10 @@ notifications:
 script: "mvn test"
 before_deploy: "echo 'ready?'"
 deploy:
-	provider: bintray
-	file: "descriptor.json"
-	user: "$System.env.BINTRAY_USER_NAME"
-	key: "$System.evn.BINTRAY_API_KEY"
+    provider: bintray
+    file: "descriptor.json"
+    user: "$System.env.BINTRAY_USER_NAME"
+    key: "$System.evn.BINTRAY_API_KEY"
 	
 	
 
