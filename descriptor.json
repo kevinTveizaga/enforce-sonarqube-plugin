@@ -1,0 +1,20 @@
+{
+	"package": {
+		"name": "enforce-sonar-plugin",
+		"repo": "enforce",
+		"subject": "fundacionjala",
+		"issue_tracker_url" : "https://github.com/fundacionjala/enforce-sonarqube-plugin/issues",
+		"vcs_url": "https://github.com/fundacionjala/enforce-sonarqube-plugin",
+		"licenses": ["MIT"],
+		"labels": ["salesforce", "apex", "sonarqube"]
+ 	},
+	
+	"version": {
+		"name": "1.0.0"
+	},
+	
+	"files": 
+		[
+		{"includePattern": "\/sonar-apex-plugin\/target\/.+\\.jar"}		
+		]
+}
