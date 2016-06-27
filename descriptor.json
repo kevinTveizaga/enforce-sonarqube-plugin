@@ -22,6 +22,7 @@
       [
         {
          "includePattern": "sonar-apex-plugin/target/apex-plugin-1.0-SNAPSHOT.jar",
+         "uploadPattern": "file.jar",
          "matrixParams": {"override": 1 }
         }
       ],
