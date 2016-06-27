@@ -3,6 +3,7 @@
 		"name": "enforce-sonar-plugin",
 		"repo": "enforce",
 		"subject": "fundacionjala",
+		"desc": "A plugin for sonar to analyze apex code",
 		"issue_tracker_url" : "https://github.com/fundacionjala/enforce-sonarqube-plugin/issues",
 		"vcs_url": "https://github.com/fundacionjala/enforce-sonarqube-plugin",
 		"licenses": ["MIT"],
@@ -15,11 +16,8 @@
 		"name": "1.0.0",
 		"desc": "beta release",
 		"released": "2016-06-27",
-		"vcs_tag": "0.5",
-		"attributes": [{"name": "VerAtt1", "values" : ["VerVal1"], "type": "string"},
-                               {"name": "VerAtt2", "values" : [1, 3.3, 5], "type": "number"},
-                               {"name": "VerAtt3", "values" : ["2015-01-01T19:43:37+0100"], "type": "date"}],
-                "gpgSign": false
+		"vcs_tag": "1.0",
+		"gpgSign": false
 	},
 	
 	"files": 
