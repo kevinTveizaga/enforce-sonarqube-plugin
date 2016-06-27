@@ -13,6 +13,5 @@ before_deploy: "echo 'ready?'"
 deploy:
     provider: bintray
     file: "descriptor.json"
-    user: "kevintveizaga"
-    key: "93abe9a30a305fa115ba364d831fc33f114e0cc5"
-    on: develop
+    user: $BINTRAY_USER_NAME
+    key: $BINTRAY_API_KEY
