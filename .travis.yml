@@ -8,6 +8,8 @@ notifications:
     - Jimmy.Rojas@jalasoft.com
     - Dan.Canqui@jalasoft.com
     - Fernando.Hurtado@jalasoft.com
+script: "cd enforce-sonarqube-plugin/sonar-apex-plugin/target"
+script: "ls"
 script: "mvn test"
 script: "mvn package"
 before_deploy: "echo 'ready?'"

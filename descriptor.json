@@ -22,7 +22,7 @@
 	
 	"files": 
 		[
-		{"includePattern": "\/home\/travis\/build\/kevinTveizaga\/enforce-sonarqube-plugin\/sonar-apex-plugin\/target\/apex-plugin-1.0-SNAPSHOT.jar"}		
+		{"includePattern": "\/enforce-sonarqube-plugin\/sonar-apex-plugin\/target\/apex-plugin-1.0-SNAPSHOT.jar"}		
 		],
 	"publish": true
 }
