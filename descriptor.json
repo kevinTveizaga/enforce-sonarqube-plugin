@@ -11,7 +11,6 @@
 		"public_download_numbers": false,
 		"public_stats": false
  	},
-	
 	"version": {
 		"name": "1.0.2",
 		"desc": "beta release",
@@ -19,10 +18,12 @@
 		"vcs_tag": "1.0",
 		"gpgSign": false
 	},
-	
 	"files": 
-		[
-		{"includePattern": "sonar-apex-plugin/target/apex-plugin-1.0-SNAPSHOT.jar"}		
-		],
+      [
+        {"includePattern": "sonar-apex-plugin/target/apex-plugin-1.0-SNAPSHOT.jar", "uploadPattern": "$1",
+    "matrixParams": {
+        "override": 1 }
+        }
+      ],
 	"publish": true
 }
