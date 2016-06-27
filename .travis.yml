@@ -11,7 +11,7 @@ notifications:
 script: "mvn test"
 script: "mvn package"
 before_deploy: "echo 'ready?'"
-script: utils.sh
+script: "sh utils.sh"
 deploy:
     provider: bintray
     file: "descriptor.json"
