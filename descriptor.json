@@ -20,9 +20,7 @@
 	},
 	"files": 
       [
-        {"includePattern": "sonar-apex-plugin/target/apex-plugin-1.0-SNAPSHOT.jar", "uploadPattern": "$1",
-    "matrixParams": {
-        "override": 1 }
+        {"includePattern": "sonar-apex-plugin/target/apex-plugin-1.0-SNAPSHOT.jar"
         }
       ],
 	"publish": true
