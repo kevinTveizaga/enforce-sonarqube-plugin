@@ -44,4 +44,4 @@ enforce-sonarqube-plugin
 
 ***[apex-squid](https://github.com/fundacionjala/enforce-sonarqube-plugin/wiki/Apex-Squid):*** Represents to static source analyzer, which provides an AST.
 
-***[sonar-apex-plugin](https://github.com/fundacionjala/enforce-sonarqube-plugin/wiki/Sonar-Apex-Plugin):*** Represents to implementation of sonarqube plugin for Apex language.
+***[sonar-apex-plugin](https://github.com/fundacionjala/enforce-sonarqube-plugin/wiki/Sonar-Apex-Plugin):*** Represents to implementation of sonarqube plugin for Apex language
