@@ -22,7 +22,7 @@
 	
 	"files": 
 		[
-		{"includePattern": "\/sonar-apex-plugin\/target\/apex-plugin-1.0-SNAPSHOT.jar"}		
+		{"includePattern": "sonar-apex-plugin/target/apex-plugin-1.0-SNAPSHOT.jar"}		
 		],
 	"publish": true
 }
