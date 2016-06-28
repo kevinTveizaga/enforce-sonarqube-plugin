@@ -6,7 +6,7 @@
 
     <groupId>org.fundacionjala.enforce.sonarqube</groupId>
     <artifactId>apex</artifactId>
-    <version>$1</version>
+    <version>1.0b${build.number}</version>
     <packaging>pom</packaging>
 
     <name>Enforce Sonarqube Plugin</name>
@@ -44,6 +44,7 @@
     </modules>
 
     <properties>
+        <build.number>SNAPSHOT</build.number>
         <license.title>SonarQube Apex Plugin</license.title>
 
         <maven.compiler.source>1.8</maven.compiler.source>
