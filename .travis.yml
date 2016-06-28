@@ -9,7 +9,7 @@ notifications:
     - Dan.Canqui@jalasoft.com
     - Fernando.Hurtado@jalasoft.com
 script: "mvn test"
-script: "mvn package"
+script: "mvn package -Dversion=$VERSION_NUMBER_MAJOR.VERSION_NUMBER_MINOR.VERSION_NUMBER_PATCH"
 deploy:
     provider: bintray
     file: "descriptor.json"
